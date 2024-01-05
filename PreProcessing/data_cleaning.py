@@ -1,32 +1,11 @@
-""""
-
-
-
-Objectif: transformer le data pour le mettre dans un format propice au machine learning
-
-
-
-	§ Création du Train Set / Test Set : split des données 
-
-	§ Élimination des NaN : dropna(), imputation, colonne"vides"
-
-	§ Encodage
-
-	§ Suppression des outliers néfastes au modèle
-
-	§ Feature selection
-
-	§ Feature engineering
-
-	§ Feature scaling
-
-
-"""
 
 
 
 import logging
-from abc import ABC, abstractmethod
+from abc import (
+    ABC,
+    abstractmethod,
+)
 from typing import Union
 
 import numpy as np

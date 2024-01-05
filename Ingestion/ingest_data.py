@@ -1,8 +1,7 @@
 import logging
+from pathlib import Path
 
 import pandas as pd
-
-from pathlib import Path
 
 THIS_DIR = Path(__file__).parent
 OLIST_CUSTOMERS_DATASET_FPATH = THIS_DIR / "../data/olist_customers_dataset.csv"

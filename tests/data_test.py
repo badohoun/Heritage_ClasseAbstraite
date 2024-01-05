@@ -1,9 +1,9 @@
 import logging
 
 import pytest
-from PreProcessing.data_cleaning import DataCleaning
-from Ingestion import IngestData
 
+from Ingestion.ingest_data import IngestData
+from PreProcessing.data_cleaning import DataCleaning
 
 
 def data_test_prep_step():
@@ -34,7 +34,7 @@ def data_test_prep_step():
         pytest.fail(e)
 
 
-@step
+
 def check_data_leakage(X_train, X_test):
     """Test if there is any data leakage."""
     try:
@@ -46,7 +46,6 @@ def check_data_leakage(X_train, X_test):
         pytest.fail(e)
 
 
-@step
 def test_ouput_range_features(df):
     """Test output range of the target variable between 0 - 5"""
     try:
