@@ -16,3 +16,11 @@ Une méthode abstraite est une méthode déclarée mais qui ne contient aucune i
 
 
 ** Dans ce projet nous aborderons ces notions et verrons de manière pratique comment nous pouvons  les utiliser pour écrire du code propre et organisé en science des données dans le cadre du MLOPS 
+
+
+
+# Packaging terms:
+- Module 
+- Package
+- sub-package
+- distribution package 
