@@ -9,4 +9,7 @@ setup(
     author_email = 'your_email@example.com',
     description='A simple package for packaging',
     license='MIT',
+    install_requires=[
+        "numpy==1.24.3"
+    ]
 )
