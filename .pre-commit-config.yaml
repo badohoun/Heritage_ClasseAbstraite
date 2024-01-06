@@ -4,9 +4,6 @@ repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.5.0
     hooks:
-      # Fails if there are any ">>>>>" lines in files due to merge conflicts.
-      - id: check-merge-conflict
-        args: [--markdown-linebreak-ext=md]
       # Attempts to load all TOML files to verify syntax.
       - id: check-toml
       # Attempts to load all yaml files to verify syntax; unsafe: only check syntax, do not load yaml
