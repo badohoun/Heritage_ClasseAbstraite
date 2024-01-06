@@ -11,5 +11,8 @@ setup(
     license='MIT',
     install_requires=[
         "numpy==1.24.3"
+    ],
+    setup_requires=[
+        "wheel"
     ]
 )
