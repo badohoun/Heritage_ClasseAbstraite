@@ -43,3 +43,4 @@ Une méthode abstraite est une méthode déclarée mais qui ne contient aucune i
    6. Removing setup.cfg  thanks to pep 621 : peps.python.org/pep-0621/
    7. reconfigure project.toml ->  https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html (In setuptool doc Note New in 61.0.0)
    8. After you will see the information about your package in PKG-INFO inside of packaging-demo-egg-info
+   9. Removing setup.py : PEP 517 ; build backends : peps.python.org/pep-0517/
