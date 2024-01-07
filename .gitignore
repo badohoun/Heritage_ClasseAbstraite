@@ -1,6 +1,7 @@
 .python-version
-.venv 
-.*env
 *env
-.env
-.env2
+.ruff_cache
+build 
+dist
+*.egg-info
+.mypy_cache
