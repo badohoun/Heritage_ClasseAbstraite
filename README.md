@@ -44,3 +44,8 @@ Une méthode abstraite est une méthode déclarée mais qui ne contient aucune i
    7. reconfigure project.toml ->  https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html (In setuptool doc Note New in 61.0.0)
    8. After you will see the information about your package in PKG-INFO inside of packaging-demo-egg-info
    9. Removing setup.py : PEP 517 ; build backends : peps.python.org/pep-0517/
+   10. Exemple use case for including data with various formats (in this example is json) into your package 
+   11. unzip your whl like this : unzip *.whl after you move to dist repo : cd dist and move to your repo and tape  pip install . 
+   12. documentation to specific problems to add data files into your package : https://setuptools.pypa.io/en/latest/userguide/datafiles.html and https://setuptools.pypa.io/en/latest/userguide/miscellaneous.html#using-manifest-in
+   13. python -m build --sdist --wheel ./; cd dist; unzip *.whl; cd ..
+   14. recursive-include packagin_demo/ *.json 
