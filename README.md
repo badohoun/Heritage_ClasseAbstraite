@@ -39,6 +39,7 @@ Une méthode abstraite est une méthode déclarée mais qui ne contient aucune i
    2. the command help us to build wheel package : python setup.py bdist_wheel 
    3.  realpython.com/python-wheels/ explain clearly how to read wheel format 
    4.  we need to add build dependencies  for reproducibility and for it we need pyproject.toml file and install build tool : pip install build 
-   5. escaping config hell; use setup.cfg 
-
-
+   5. escaping config hell; use setup.cfg : https://setuptools.pypa.io/en/latest/userguide/declarative_config.html
+   6. Removing setup.cfg  thanks to pep 621 : peps.python.org/pep-0621/
+   7. reconfigure project.toml ->  https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html (In setuptool doc Note New in 61.0.0)
+   8. After you will see the information about your package in PKG-INFO inside of packaging-demo-egg-info
